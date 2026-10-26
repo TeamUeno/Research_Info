@@ -1,173 +1,169 @@
 /* タブレット：ナビゲーションを独立した行に配置 */
-@media(max-width:1050px) {
-  
+@media (max-width:1050px) {
   .header-inner {
-  flex-wrap:wrap;
-  gap:12px 24px;
-  padding-block:20px
-}
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    padding-block: 20px;
+  }
 
   .brand {
-  margin-right:auto
-}
+    margin-right: auto;
+  }
 
   .languages {
-  order:1
-}
+    order: 1;
+  }
 
   .main-nav {
-  order:2;
-  width:100%;
-  margin-left:0;
-  gap:12px 28px
-}
+    order: 2;
+    width: 100%;
+    margin-left: 0;
+    gap: 12px 28px;
+  }
 
   .hero-layout {
-  gap:32px
-}
+    gap: 32px;
+  }
 
   .hero-placeholder {
-  min-height:300px
-}
+    min-height: 300px;
+  }
 
   .abstract-shape span {
-  width:120px;
-  height:120px
-}
+    width: 120px;
+    height: 120px;
+  }
 
   .detail-layout {
-  grid-template-columns:180px minmax(0,1fr);
-  gap:32px
-}
-
+    grid-template-columns: 180px minmax(0, 1fr);
+    gap: 32px;
+  }
 
 }
 
 /* スマートフォン：カード・詳細・連絡先を1列に */
-@media(max-width:700px) {
-  
+@media(max-width:700px)
+ {
   .container {
-  width:calc(100% - 40px)
-}
+    width: calc(100% - 40px);
+  }
 
   .header-inner {
-  gap:12px
-}
+    gap: 12px;
+  }
 
   .brand {
-  font-size:.9rem;
-  gap:8px
-}
+    font-size: .9rem;
+    gap: 8px;
+  }
 
   .brand-mark {
-  width:34px;
-  height:36px
-}
+    width: 34px;
+    height: 36px;
+  }
 
   .brand small {
-  font-size:.5rem
-}
+    font-size: .5rem;
+  }
 
   .languages {
-  font-size:.7rem;
-  gap:6px
-}
+    font-size: .7rem;
+    gap: 6px;
+  }
 
   .main-nav {
-  justify-content:flex-start;
-  gap:0 20px
-}
+    justify-content: flex-start;
+    gap: 0 20px;
+  }
 
   .main-nav a {
-  font-size:.8rem;
-  padding-block:8px
-}
+    font-size: .8rem;
+    padding-block: 8px;
+  }
 
   .hero {
-  padding-block:44px
-}
+    padding-block: 44px;
+  }
 
-  .hero-layout,.research-grid,.contact-layout,.detail-layout {
-  grid-template-columns:minmax(0,1fr)
-}
+  .hero-layout, .research-grid, .contact-layout, .detail-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
 
   .hero-layout {
-  gap:36px
-}
+    gap: 36px;
+  }
 
   .hero-placeholder {
-  min-height:250px
-}
+    min-height: 250px;
+  }
 
   .abstract-shape {
-  height:140px
-}
+    height: 140px;
+  }
 
   .section {
-  padding-block:48px
-}
+    padding-block: 48px;
+  }
 
   .section-heading {
-  display:block;
-  margin-bottom:24px
-}
+    display: block;
+    margin-bottom: 24px;
+  }
 
   .section-heading>p {
-  margin-top:16px
-}
+    margin-top: 16px;
+  }
 
   .research-grid {
-  gap:24px
-}
+    gap: 24px;
+  }
 
-  .card-body,.contact-card {
-  padding:24px
-}
+  .card-body, .contact-card {
+    padding: 24px;
+  }
 
   .contact-section {
-  padding-block:44px
-}
+    padding-block: 44px;
+  }
 
   .contact-layout {
-  gap:32px
-}
+    gap: 32px;
+  }
 
   .footer-inner {
-  flex-direction:column
-}
+    flex-direction: column;
+  }
 
   .page-heading {
-  padding-bottom:36px
-}
+    padding-bottom: 36px;
+  }
 
   .breadcrumb {
-  margin-bottom:28px
-}
+    margin-bottom: 28px;
+  }
 
   .detail-layout {
-  padding-block:36px 48px;
-  gap:40px
-}
+    padding-block: 36px 48px;
+    gap: 40px;
+  }
 
   .contents nav {
-  display:flex;
-  flex-wrap:wrap;
-  gap:4px 20px
-}
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 20px;
+  }
 
   .contents .eyebrow {
-  width:100%
-}
+    width: 100%;
+  }
 
   .detail-section {
-  margin-bottom:32px;
-  padding-bottom:32px
-}
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+  }
 
   .detail-media {
-  min-height:190px
+    min-height: 190px;
+  }
+
 }
-
-
-}
-
