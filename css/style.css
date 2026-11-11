@@ -243,6 +243,13 @@ p+p {
   margin-top: 4px;
 }
 
+/* トップページの共通テーマ画像 */
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
 .abstract-shape {
   height: 190px;
   display: flex;
